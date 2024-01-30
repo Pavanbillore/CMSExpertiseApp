@@ -1,0 +1,135 @@
+import {StyleSheet, Dimensions} from 'react-native';
+const {width, height} = Dimensions.get('window');
+const Styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  btnContainer: {
+    alignItems: 'flex-end',
+    paddingRight: 10,
+    margin: 10,
+  },
+  logoview: {
+    alignItems: 'center',
+  },
+  logoStyle: {
+    borderRadius: 9,
+  },
+  txtContainer: {
+    color: '#3a3185',
+    fontWeight: 'bold',
+    fontSize: 18,
+    fontFamily: 'Roboto',
+  },
+  txtWelcome: {
+    color: '#3a3185',
+    fontWeight: 'bold',
+    fontSize: 20,
+    fontFamily: 'Roboto',
+    paddingLeft: 38,
+    paddingTop: 20,
+    padding: 10,
+  },
+  imgContainer: {
+    height: 300,
+    width: 300,
+  },
+  imgViewContainer: {
+    padding: 10,
+    paddingTop: 50,
+    alignItems: 'center',
+  },
+  flatimg: {
+    width: 300,
+    height: 300,
+    right: '1%',
+    alignSelf: 'center',
+    borderColor: 'rgba(0, 0, 0, 0.18)',
+  },
+  modalContainer: {
+    height: '50%',
+    width: width - 1,
+    margin: 0.5,
+    padding: 10,
+    backgroundColor: '#3a3185',
+    borderTopLeftRadius: 17,
+    borderTopRightRadius: 17,
+    alignSelf: 'center',
+  },
+  wallettxt: {
+    color: '#fff',
+    fontSize: 24,
+    textAlign: 'center',
+    paddingTop: 20,
+  },
+  wallettxt2: {
+    color: '#fff',
+    fontSize: 16,
+    paddingTop: 50,
+    textAlign: 'center',
+    lineHeight: 25,
+  },
+  Gettxt: {
+    color: '#3a3185',
+    fontSize: 20,
+    textAlign: 'center',
+    fontFamily: 'sans-serif',
+  },
+  mainBody: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+    alignContent: 'center',
+  },
+  SectionStyle: {
+    flexDirection: 'row',
+    height: 50,
+    marginTop: 20,
+    marginLeft: 35,
+    marginRight: 35,
+    margin: 10,
+  },
+  buttonStyle: {
+    backgroundColor: '#rgb(238,129,31)',
+    borderWidth: 0,
+    color: '#FFFFFF',
+    borderColor: '#7DE24E',
+    height: 40,
+    alignItems: 'center',
+    borderRadius: 30,
+    marginLeft: 35,
+    marginRight: 35,
+    marginTop: 20,
+    marginBottom: 25,
+  },
+  buttonTextStyle: {
+    color: '#FFFFFF',
+    paddingVertical: 10,
+    fontSize: 16,
+  },
+  inputStyle: {
+    flex: 1,
+    color: 'black',
+    paddingLeft: 15,
+    paddingRight: 15,
+    borderWidth: 1,
+    borderRadius: 30,
+    borderColor: '#dadae8',
+  },
+  registerTextStyle: {
+    color: '#3a3185',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: 14,
+    alignSelf: 'center',
+    padding: 10,
+  },
+  errorTextStyle: {
+    color: 'red',
+    textAlign: 'center',
+    fontSize: 14,
+  },
+});
+
+export default Styles;
